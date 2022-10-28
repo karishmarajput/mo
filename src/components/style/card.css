@@ -1,5 +1,8 @@
 .cardDiv {
   background-color: aqua;
-  max-width: 17rem;
-  height: 10rem;
+  max-width: 25rem;
+  height: 25rem;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
 }
