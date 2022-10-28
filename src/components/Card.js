@@ -5,10 +5,10 @@ console.log(data);
 function RenderPost(post) {
   console.log(post);
   return (
-    <div className="cardDiv" key={post.id} style={{ width: '100%' }}>
-      <div className="cardHeading">{post.name}</div>
+    <div className="cardDiv" key={post.post.id} style={{ width: '100%' }}>
+      <div className="cardHeading">{post.post.name}</div>
       <div className="cardImg">
-        <img src={post.src} />
+        <img src={post.post.src} />
       </div>
       <div className="cardDetails">
         <div className="cardLike"></div>
