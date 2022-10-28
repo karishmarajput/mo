@@ -3,11 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "fortawesome": "^0.0.1-security",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-router-dom": "^6.4.2",
-    "router-dom": "^2.2.9"
+    "@popperjs/core": "^2.11.6",
+    "@types/react": "18.0.24",
+    "bootstrap": "^5.2.2",
+    "fortawesome": "0.0.1-security",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.2",
+    "router-dom": "2.2.9"
   },
   "scripts": {
     "start": "react-scripts start",

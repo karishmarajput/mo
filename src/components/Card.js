@@ -8,7 +8,7 @@ function RenderPost(post) {
     <div className="cardDiv" key={post.post.id} style={{ width: '100%' }}>
       <div className="cardHeading">{post.post.name}</div>
       <div className="cardImg">
-        <img src={post.post.src} />
+        <image src={post.post.src} />
       </div>
       <div className="cardDetails">
         <div className="cardLike"></div>
